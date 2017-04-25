@@ -12,14 +12,14 @@ public class HbaseCSVtoOracle {
   public HbaseCSVtoOracle() {
     // TODO Auto-generated constructor stub
   }
-
+  static Connection conn = null;
+  static PreparedStatement sql_statement = null; // Initializing
   /**
    * @author r0choud
    * @param args
    */
   public static void main(String[] args) {
-    Connection conn = null;
-    PreparedStatement sql_statement = null; // Initializing
+   
     try{
     final String inputCSVFile = "/u/HbaseB/WDI_Country.csv"; //getting the CSV file from the location we have saved.
     Class.forName ("oracle.jdbc.OracleDriver"); // Creating a connection Object
@@ -69,6 +69,13 @@ public class HbaseCSVtoOracle {
       e.printStackTrace();
     }finally
     {
+        closeConnection(); 
+    }
+    
+    
+}
+
+  private static void closeConnection() {
       /* Close prepared statement */
       try {
         sql_statement.close();
@@ -87,8 +94,7 @@ public class HbaseCSVtoOracle {
       } catch (SQLException e) {
         e.printStackTrace();
       }
-    }
-    
-}
+      
+  }
 
   } 
