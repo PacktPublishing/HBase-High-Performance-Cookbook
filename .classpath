@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="Chapter02"/>
+	<classpathentry kind="src" path="Chapter04"/>
+	<classpathentry kind="src" path="Chapter06"/>
+	<classpathentry kind="src" path="Chapter07"/>
+	<classpathentry kind="src" path="Chapter09"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="lib" path="/Users/r0choud/HBase-High-Performance-Cookbook/lib/opencsv-2.1-1.0.0-sources.jar"/>
+	<classpathentry kind="lib" path="/Users/r0choud/HBase-High-Performance-Cookbook/lib/opencsv-2.2.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
