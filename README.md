@@ -34,7 +34,3 @@ In the end it talks about Machine learning, text analysis using Solr and Elastic
 * [Hadoop Backup and Recovery Solutions](https://www.packtpub.com/big-data-and-business-intelligence/hadoop-backup-and-recovery-solutions?utm_source=github&utm_medium=repository&utm_campaign=9781783289042)
 
 * [Hadoop MapReduce Cookbook](https://www.packtpub.com/big-data-and-business-intelligence/hadoop-mapreduce-cookbook?utm_source=github&utm_medium=repository&utm_campaign=9781849517287)
-### Download a free PDF
-
- <i>If you have already purchased a print or Kindle version of this book, you can get a DRM-free PDF version at no cost.<br>Simply click on the link to download a free PDF copy of this book.</i>
-<p align="center"> <a href="https://packt.link/free-ebook/9781783983063">https://packt.link/free-ebook/9781783983063 </a> </p>
